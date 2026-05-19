@@ -129,6 +129,11 @@ window-rule {
 }
 
 window-rule {
+    match app-id="dev.diegovsky.Riff"
+    open-on-workspace "music"
+}
+
+window-rule {
     match app-id="org.keepassxc.KeePassXC"
     open-on-workspace "misc"
     open-focused true
